@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "suppressExcessPropertyErrors": false,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "resolveJsonModule": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "noUnusedLocals": false,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "declaration": false,
+        "incremental": true,
+        "allowJs": true,
+        "strict": true,
+        "noEmit": true,
+    },
+    "exclude": [
+        "**/node_modules",
+        "**/.next",
+    ],
+    "include": [
+        "./src",
+    ]
+}
