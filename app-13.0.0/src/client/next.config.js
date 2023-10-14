@@ -6,7 +6,10 @@
  * @type {import('next').NextConfig}
  **/
 const next_config = {
-    distDir: '../../.next',
+    distDir: '../../../.next',
+    experimental: {
+        appDir: true,
+    },
     useFileSystemPublicRoutes: false,
     poweredByHeader: false,
     reactStrictMode: true,

@@ -22,12 +22,5 @@
         "allowJs": true,
         "strict": true,
         "noEmit": true,
-    },
-    "exclude": [
-        "**/node_modules",
-        "**/.next",
-    ],
-    "include": [
-        "./src",
-    ]
+    }
 }
