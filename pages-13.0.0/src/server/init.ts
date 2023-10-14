@@ -7,7 +7,7 @@ import express from 'express';
 import conf from '../client/next.config';
 
 const HOST = 'localhost';
-const PORT = 3000;
+const PORT = 3001;
 const DEV = true;
 
 (async () => {
